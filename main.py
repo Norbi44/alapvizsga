@@ -17,5 +17,12 @@ A két szám egyenlő
 ------------------
 '''
 
-szam1 = int("Adj meg egy számot! ")
-szam2 = int("Adj meg egy másik számot! ")
+szam1 = input("Adj meg egy számot! ")
+szam2 = input("Adj meg egy másik számot! ")
+
+if szam1 > szam2:
+  print("A nagyobb érték ", szam1)
+elif szam2 > szam1:
+  print("A nagyobb érték ", szam2)
+else:
+  print("A két szám egyenlő")
